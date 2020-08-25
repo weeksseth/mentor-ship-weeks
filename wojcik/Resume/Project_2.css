@@ -1,0 +1,28 @@
+#NameTitleContact {
+    float: right;
+}
+
+h3 {
+    background-color: rgb(214, 206, 206);
+}
+
+span {
+    color:rgb(75, 146, 226);
+}
+
+img {
+    border-radius: 50%;
+}
+
+/*Found this in an article on creating resumes using HTML & CSS*/
+
+main {
+    margin: 0 auto; 
+    box-sizing: border-box;
+    padding: 0.5in; 
+    width: 8.5in;
+    height: 11in;
+    background-color: white;
+    box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+}
+

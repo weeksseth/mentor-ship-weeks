@@ -1,5 +1,15 @@
-#NameTitleContact {
+#contactinfo {
     float: right;
+    margin-right: 75px;
+    margin-top: -25px;
+}
+
+#name {
+    margin-block-end: 0;
+}
+
+#title {
+    margin-block-start: 0;
 }
 
 .grey-bar {
@@ -10,8 +20,26 @@
     color:rgb(75, 146, 226);
 }
 
+.left {
+    width: 75%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.right {
+    width: 25%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table {
+    border-spacing: 0px;
+}
+
 img {
     border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 75px;
 }
 
 /*Found this in an article on creating resumes using HTML & CSS*/
